@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/carjavi/github-guide/master/img/GitHub_Git_logo.png" height="400" alt=" " /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/carjavi/github-guide/master/img/GitHub_Git_logo.png" height="300" alt=" " /></p>
 <h1 align="center">Git & Github Guide</h1> 
 <h4 align="right">Aug 22</h4>
 
