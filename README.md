@@ -41,6 +41,10 @@ git reset --hard        # deshacer los cambios en el área de trabajo & área de
 git checkout
 
 ```
+
+<p align="center"><img src="https://raw.githubusercontent.com/carjavi/github-guide/master/img/flow.png"  alt=" " /></p>
+
+
 # Install Git on Linux ( desde el instalador algunos instaladores de paquetes)
 ```
 apt-get install git-all
