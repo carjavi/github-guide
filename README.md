@@ -50,10 +50,9 @@ yum install git
 
 # Github
 
-pull request #cualquiera puede proponer al dueño de un repositorio cambios en el mismo
+pull request & fork #es para hacer contribuciones a otros proyectos de github donde nno se es colaborador directo
 
-El proceso para hacer una pull request es muy sencillo y se puede resumir
-en los siguientes pasos:
+
 
 
 
