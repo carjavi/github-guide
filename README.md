@@ -28,8 +28,8 @@ git clone --depth=1 https://github.com/marcorodas/ApuntesAndroid.git ApuntesAndr
 # --depth=1: Sólo el último commit
 
 git commit    # https://git-scm.com/docs/git-commit/2.21.0
-git commit -n  # Esta opción pasa por alto los ganchos de pre-commit y commit-msg (interaction)
-git commit -q  #Suprimir el mensaje de resumen de confirmación.
+git commit -n  # Esta opción pasa por alto los ganchos de pre-commit y commit-msg (interactivo)
+git commit -q  #Suprimir el mensaje de resumen de confirmación. (interactivo)
 git commit -m "xxx"  #empaqueta los archivos y se puede dejar un comentario / se crea el snapshop / evita e editor de código
 
 git config     #configurar datos del autor
