@@ -8,6 +8,22 @@
 
 # git commands
 ## Comandos Importantes
+
+
+config # GIT Setting
+```
+git config --global user.name "Miguel Díaz Rubio" // configuracion global 
+git config --global user.email info@migueldiazrubio.com
+
+git config --list #q para salir
+git config     #configurar datos del autor
+
+git config user.name #consultar datos del autor
+git config user.email #consultar datos del autor
+
+```
+
+Git basic commands
 ```
 git --version
 
@@ -22,7 +38,9 @@ Si dice working tree clean // no hay nada que actualizar. Los archivos rojos son
 
 ------------------------------------
 
-git add .    #añadir todo los archivos del directorio al staging area – o área de listado
+git add <nombre-archivo> #agraga archivo al staging area
+git rm --cached <file-name> #saca al archivo del staging area
+git add .    #añadir todo los archivos del directorio al staging area – o área de listado 
 
 git add remote origin
 
@@ -46,7 +64,7 @@ git diff <file>   #muestra los cambios que ha sufrido ese archivo. Verde lo que 
 
 ------------------------------
 
-git log    #para ver todos los commit que se han hecho. El comando git log es enormemente potente y cuenta con muchos parámetros. https://git-scm.com/docs/git-log
+git log    #para ver todos los commit que se han hecho. El comando git log es enormemente potente y cuenta con muchos parámetros. https://git-scm.com/docs/git-log. con "q" podemos salir. 
 
 --------------------------------
 
@@ -78,6 +96,8 @@ git clone --depth=1 https://github.com/marcorodas/ApuntesAndroid.git ApuntesAndr
 
 commit 
 ```
+git commit -m "xxx"  #empaqueta los archivos y se puede dejar un comentario / se crea el snapshop / evita e editor de código
+
 git commit   #con solo este comando solo, me preguntara quien soy y mi clave cuando se hace por primera vez. Luego aparece un editor, si es VIM con tecla “i” puedo  insertar comentario, esc .. wq y me salgo del editor
 
 git commit    # https://git-scm.com/docs/git-commit/2.21.0
@@ -85,20 +105,10 @@ git commit -n  # Esta opción pasa por alto los ganchos de pre-commit y commit-m
 
 git commit -q  #Suprimir el mensaje de resumen de confirmación. (interactivo)
 
-git commit -m "xxx"  #empaqueta los archivos y se puede dejar un comentario / se crea el snapshop / evita e editor de código
-
 git commit --amend   #Corregir un commit recién hecho. Esto hará que los cambios se incluyan en el último commit realizado. se debe hacer un "git add" primero
 ```
 
-config
-```
-git config     #configurar datos del autor
-git config --global user.name "Miguel Díaz Rubio"
-git config --global user.email info@migueldiazrubio.com
-git config user.name #consultar datos del autor
-git config user.email 
 
-```
 
 
 
@@ -144,9 +154,6 @@ git reset --hard origin/master
 ```
 
 
-## Buenas prácticas 
- * En GIT únicamente deberían guardarse archivos planos  y  archivos pequeños (como logos) que no sufran casi modificaciones durante la vida del proyecto. Los binarios deben guardarse en un CDN.
-
 <p align="center"><img src="https://raw.githubusercontent.com/carjavi/github-guide/master/img/flow.png"  alt=" " /></p>
 
 
@@ -191,7 +198,9 @@ tienen exactamente la misma versión de los ficheros que componen el
 repositorio.
 
 
-
+## Buenas prácticas 
+ * con ```q``` podemos salir de los comandos GIT
+ * En GIT únicamente deberían guardarse archivos planos  y  archivos pequeños (como logos) que no sufran casi modificaciones durante la vida del proyecto. Los binarios deben guardarse en un CDN.
 
 
 
